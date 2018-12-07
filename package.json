@@ -1,0 +1,21 @@
+{
+  "name": "symfonyvue",
+  "version": "1.0.0",
+  "description": "symfonyVue ==========",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "webpack": "webpack --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vue": "^2.5.18",
+    "vue-loader": "^15.4.2",
+    "vue-template-compiler": "^2.5.18",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
