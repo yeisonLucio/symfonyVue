@@ -1,5 +1,5 @@
 {
-  "name": "symfonyvue",
+  "name": "symfonyVue",
   "version": "1.0.0",
   "description": "symfonyVue ==========",
   "main": "index.js",
@@ -7,15 +7,32 @@
     "test": "tests"
   },
   "scripts": {
-    "webpack": "webpack --mode development"
+    "webpack": "webpack --config webpack.config.js",
+    "dev": "encore dev-server"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeisonLucio/symfonyVue.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeisonLucio/symfonyVue/issues"
+  },
+  "homepage": "https://github.com/yeisonLucio/symfonyVue#readme",
   "devDependencies": {
+    "@symfony/webpack-encore": "^0.20.1",
+    "jquery": "^3.3.1",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
+    "babel-loader": "^8.0.4",
+    "babel-preset-env": "^1.7.0",
     "vue": "^2.5.18",
     "vue-loader": "^15.4.2",
     "vue-template-compiler": "^2.5.18",
     "webpack": "^4.27.1",
-    "webpack-cli": "^3.1.2"
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
   }
 }
